@@ -1,179 +1,242 @@
 /* Universal changes */
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Added bg color to body */
 body {
     background-color: #d9dcd6;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Changed from div to header */
+
 header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    color: rgb(55, 69, 80);  
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+img {
+    border: turquoise solid 5px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-/* Changed div to nav */
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
+ul {
+    
+    padding: 0 70px;
     list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: flex;
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+    color: turquoise;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 3px 0 ;
+    background-color: rgb(55, 69, 80);
+}
+
+li {
+    margin: 5px;
+    border-bottom: 3px turquoise solid;
+    padding:0 5px 0;
+}
+
+h1 {
+    position: relative;
+    padding: 2px 80px 5px;
+    font-size:40px;
+    color: rgb(55, 69, 80)
+}
+
+h2 {
+    padding: 5px 0 0 0;
+    bottom: 20px;
+    font-size:26px;
+    color: rgb(55, 69, 80);
 }
 
 p {
-    font-size: 16px;
+    padding: 0 100px 0 50px;
+    text-align: left;
+    font-size: 14px;
+}
+.subtitle {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.aboutMe {
+    display: flex;
+    font-size: 32px;
+    margin-top: 40px;
 }
 
-/* Changed div to figure */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+.bigImg {
+    position: relative;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+
+.contactMe {
+    display: flex;
+    margin: 40px 0 40px;
+    font-size: 32px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.contactLink {
+    margin: 40px;
+    border-bottom: 5px rgb(68, 91, 134) solid;
+    padding: 0 10px 5px 10px;
+    font-weight:bold;
+    font-size: 18px;
+    color: black;
 }
 
-/* Change div to section */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.work {
+    font-size: 32px;
+    display: flex;
+    margin-top: 40px;  
 }
 
-/* Changed div to aside */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+
+.smallProjects {
+    padding: 5px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-/* Change div to article */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 10px;
+.smallCard {
+    display: flex;
+}
+
+.smallImg {
+    position: relative;
+}
+
+.art1 {
+    font-size: 14px;
+    bottom: 60px;
+    position: absolute;
+    left: 15px;
+    color: rgb(55, 69, 80);
+}
+
+.art2 {
+    font-size: 14px;
+    bottom: 60px;
+    position: absolute;
+    left: 15px;
+    color: rgb(55, 69, 80);
+}
+
+.box1 {
+    padding: 0 34px;
+    width: 13.5%;
+    height: 4.5%;
+    top: 5px;
+    position: absolute;
+	background-color: turquoise; 
+}
+
+.box2 {
+    width: 8%;
+    height: 17%;
+    bottom: 30px;
+    position: absolute;
     text-align: center;
+    margin-right: 80px;
+	background-color: turquoise; 
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
+.box3 {
+    width: 9%;
+    height: 10.5%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+	background-color: turquoise; 
+}
+
+.box4 {
+    width: 32%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+	background-color: turquoise; 
+}
+
+.box5 {
+    width: 26%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+	background-color: turquoise; 
+}
+
+.box6 {
+    width: 30%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+	background-color: turquoise; 
+}
+
+.box7 {
+    width: 8%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+	background-color: turquoise; 
+}
+
+.bigsubtitleCard{
+    position: absolute;
     text-align: center;
+    color: rgb(55, 69, 80);
+    bottom: 80px;
+    left: 15px;
 }
 
-/* Added alt for images */
-.benefit-lead img, 
-.benefit-brand img, 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Change div to article */
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Added alt for images */
-.search-engine-optimization img, 
-.online-reputation-management img, 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, 
-.online-reputation-management h2, 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Changed to footer and removed &copy code */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.smallsubtitleCard {
+    position: absolute;
     text-align: center;
+    color: rgb(55, 69, 80);
+    top: 30%;
+    left: 15px;
 }
 
-footer h4 {
-    font-size: 20px;
-}
-/* Contact */
-
-.contact-links {
+.bigCard {
     display: flex;
     justify-content: center;
 }
 
-.contact-link {
-    margin: 0 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--blue);
-    border-bottom: 6px solid var(--white);
+.sectionContent {
+    flex: 0 0 80%;
 }
 
-.contact-link:visited {
-    color: var(--blue);
+.sectioncontentFooter {
+    margin: 20px;
+    padding: 0 0 0 230px;
+}
+
+.sectionTitle {
+    text-align: right;
+    padding-right: 20px;
+    color: rgb(68, 91, 134);
+    border-right: rgb(68, 91, 134) solid 5px;
+    flex: 0 0 15%;
 }
 
 /* Media Queries */
-
 /* Tablet */
 @media screen and (max-width: 990px){
     main {
@@ -190,14 +253,14 @@ footer h4 {
         border-bottom: 6px solid var(--white);
     }
     section {
-        flex-direction: column;
+       /* flex-direction: column;*/
         max-width: 100%;
     }
-    .section-content {
+    .sectionContent {
         border-top: 6px solid var(--blue);
         border-left: none;
     }
-    .small-card, .big-card {
+    .smallCard, .bigCard {
         flex: 1 1 80%;
     }
 }
@@ -221,11 +284,11 @@ footer h4 {
         flex-direction: column;
         max-width: 100%;
     }
-    .section-content {
+    .sectionContent {
         border-top: 6px solid var(--black);
         border-left: none;
     }
-    .small-card, .big-card {
+    .smallCard, .bigCard {
         flex: 1 1 80%;
     }
 }
@@ -249,11 +312,11 @@ footer h4 {
         flex-direction: column;
         max-width: 100%;
     }
-    .section-content {
+    .sectionContent {
         border-top: 6px solid var(--black);
         border-left: none;
     }
-    .small-card, .big-card {
+    .smallCard, .bigCard {
         flex: 1 1 80%;
     }
 }
