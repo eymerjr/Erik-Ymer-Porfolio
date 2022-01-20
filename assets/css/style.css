@@ -3,47 +3,17 @@
     padding: 0;
     margin: 0;
 }
-/* Added bg color to body */
-body {
-    background-color: #d9dcd6;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(55, 69, 80); 
-}
-
-img {
-    border: turquoise solid 5px;
-}
-
-ul {
-    flex-wrap: wrap;
-    padding: 0 70px;
-    list-style-type: none;
-    display: flex;
-}
 
 a {
     text-decoration: none;
     color: turquoise;
 }
 
-nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0 3px 0 ;
-    background-color: rgb(55, 69, 80);
-}
-
-li {
-    margin: 5px;
-    border-bottom: 3px turquoise solid;
-    padding:0 5px 0;
+/* Added bg color to body */
+body {
+    background-color: #d9dcd6;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -60,71 +30,46 @@ h2 {
     color: rgb(55, 69, 80);
 }
 
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(55, 69, 80); 
+}
+
+img {
+    border: turquoise solid 5px;
+}
+
+li {
+    margin: 5px;
+    border-bottom: 3px turquoise solid;
+    padding:0 5px 0;
+}
+
+ul {
+    flex-wrap: wrap;
+    padding: 0 70px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 3px 0 ;
+    background-color: rgb(55, 69, 80);
+}
+
 p {
     padding: 0 100px 0 50px;
     text-align: left;
     font-size: 14px;
-}
-.subtitle {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-}
-.subtitleImg{
-    width: 100%;
-    height: 200px;
 }
 
 .aboutMe {
     display: flex;
     font-size: 32px;
     margin-top: 40px;
-}
-
-.bigImg {
-    position: relative;
-    width: 95%;
-    padding: 0 0 20px 0;
-}
-
-
-.contactMe {
-    display: flex;
-    margin: 40px 0 40px;
-    font-size: 32px;
-}
-
-.contactLink {
-    margin: 40px;
-    border-bottom: 5px rgb(68, 91, 134) solid;
-    padding: 0 10px 5px 10px;
-    font-weight:bold;
-    font-size: 18px;
-    color: black;
-}
-
-.work {
-    font-size: 32px;
-    display: flex;
-    margin-top: 40px;  
-}
-
-
-.smallProjects {
-    padding: 5px 35px;
-    display: flex;
-
-}
-
-.smallCard {
-    display: flex;
-}
-
-.smallImg {
-    position: relative;
-    width: 720px;
-    height: 150px;
-    padding: 0 15px 15px 8px;
 }
 
 .art1 {
@@ -143,68 +88,16 @@ p {
     color: rgb(55, 69, 80);
 }
 
-.box1 {
-    padding: 0 34px;
-    width: 13.5%;
-    height: 4.5%;
-    top: 5px;
-    position: absolute;
-	background-color: turquoise; 
+.bigCard {
+    display: flex;
+    padding: 0 12px 0 4px;
+    justify-content: center;
 }
 
-.box2 {
-    width: 8%;
-    height: 17%;
-    bottom: 30px;
-    position: absolute;
-    text-align: center;
-    margin-right: 80px;
-	background-color: turquoise; 
-}
-
-.box3 {
-    width: 9%;
-    height: 10.5%;
-    bottom: 50px;
-    position: absolute;
-    padding: 0 0 0 50px;
-	background-color: turquoise; 
-}
-
-.box4 {
-    width: 32%;
-    height: 45%;
-    bottom: 50px;
-    position: absolute;
-    padding: 0 0 0 50px;
-	background-color: turquoise; 
-}
-
-.box5 {
-    width: 26%;
-    height: 45%;
-    bottom: 50px;
-    position: absolute;
-    padding: 0 0 0 50px;
-	background-color: turquoise; 
-}
-
-.box6 {
-    width: 30%;
-    height: 45%;
-    bottom: 50px;
-    position: absolute;
-    padding: 0 0 0 50px;
-	background-color: turquoise; 
-}
-
-.box7 {
-    width: 8%;
-    height: 45%;
-    bottom: 50px;
-    position: absolute;
-    padding: 0 0 0 50px;
-	background-color: turquoise; 
+.bigImg {
+    position: relative;
+    width: 95%;
+    padding: 0 0 20px 0;
 }
 
 .bigsubtitleCard{
@@ -215,18 +108,83 @@ p {
     left: 15px;
 }
 
-.smallsubtitleCard {
+.box1 {
+    padding: 0 34px;
+    width: 13.5%;
+    height: 4.5%;
+    top: 5px;
     position: absolute;
-    text-align: center;
-    color: rgb(55, 69, 80);
-    top: 30%;
-    left: 15px;
+    background-color: turquoise; 
 }
 
-.bigCard {
+.box2 {
+    width: 8%;
+    height: 17%;
+    bottom: 30px;
+    position: absolute;
+    text-align: center;
+    margin-right: 80px;
+    background-color: turquoise; 
+}
+
+.box3 {
+    width: 9%;
+    height: 10.5%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+    background-color: turquoise; 
+}
+
+.box4 {
+    width: 32%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+    background-color: turquoise; 
+}
+
+.box5 {
+    width: 26%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+    background-color: turquoise; 
+}
+
+.box6 {
+    width: 30%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+    background-color: turquoise; 
+}
+
+.box7 {
+    width: 8%;
+    height: 45%;
+    bottom: 50px;
+    position: absolute;
+    padding: 0 0 0 50px;
+    background-color: turquoise; 
+}
+
+.contactLink {
+    margin: 40px;
+    border-bottom: 5px rgb(68, 91, 134) solid;
+    padding: 0 10px 5px 10px;
+    font-weight:bold;
+    font-size: 18px;
+    color: black;
+}
+
+.contactMe {
     display: flex;
-    padding: 0 12px 0 4px;
-    justify-content: center;
+    margin: 40px 0 40px;
+    font-size: 32px;
 }
 
 .sectionContent {
@@ -247,57 +205,90 @@ p {
     flex: 0 0 15%;
 }
 
+.smallProjects {
+    padding: 5px 35px;
+    display: flex;
+    
+}
+
+.smallCard {
+    display: flex;
+}
+
+.smallImg {
+    position: relative;
+    width: 720px;
+    height: 150px;
+    padding: 0 15px 15px 8px;
+}
+
+.smallsubtitleCard {
+    position: absolute;
+    text-align: center;
+    color: rgb(55, 69, 80);
+    top: 30%;
+    left: 15px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.subtitleImg{
+    width: 100%;
+    height: 200px;
+}
+
+.work {
+    font-size: 32px;
+    display: flex;
+    margin-top: 40px;  
+}
+
+
 /* Media Queries */
 /* Laptop */
-@media screen and (max-width: 1024px) and (min-width:768px){
-    nav
-    {
-        padding: 30px;
+@media screen and (max-width: 1024px){
+    a{
+        font-size: 10px;
     }
-}
-
-/* Tablet */
-@media screen and (max-width: 768px) and (min-width:580px){
-
-}
-
-/* larger smartphones */
-@media screen and (max-width: 580px)and (min-width: 480px){
-   
-}
-
-/* Smaller smartphones */
-@media screen and (max-width: 576px){
-    nav{
-        flex-direction: column;
-        padding: 0;
-    }
-    
     li{
         margin: 0 2px 5px;
         border-bottom: 1px turquoise solid;
     }
-    a{
-        font-size: 10px;
+    nav{
+        flex-direction: column;
+        padding: 0;
     }
-
-    .smallImg{
-        padding: 0 42px 20px 32px;
-        height: 100px;
+    p{
+        padding: 20px 30px 0 30px;
+    }
+    .aboutMe{
+        display: block;
+        margin: 0px;
+    }
+    .art1{
+        left: 30px;
+        bottom: 30px;
+    }
+    .art2{
+        left: 45px;
+        bottom: 40px;
     }
     .bigImg{
         padding: 20px;
         margin: 0 10px 0 8px;
         width: 430px;
         height: 100px;
-
+        
     }
-    .subtitleImg{
-        width: 576px;
-        height: 288px;
-    }
-    p{
-        padding: 20px 30px 0 30px;
+    .bigsubtitleCard{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        bottom: 45px;
+        left: 30px;
     }
     .box1{
         top: 0;
@@ -307,26 +298,51 @@ p {
     }
     .box2{
         font-size: 18px;
-        top: 57%;
+        top: 88%;
         width: 100px;
         height: 26px;
         margin: 0 30px;
     }
     .box3{
-   
+        top: 50%;
+        width: 12%;
+        height: 30%;
     }
-   
+    
     .box4{
-
+        top: 35%;
+        width: 25%;
+        height: 35%;
     }
     .box5{
-     
+        top: 35%;
+        width: 20%;
+        height: 35%;
     }
     .box6{
-       
+        top: 35%;
+        width: 23%;
+        height: 35%;
     }
     .box7{
-  
+        top: 35%;
+        width: 3%;
+        height: 35%;
+    }
+    .contactLink{
+        margin: 0 0 0 15px;
+        padding: 0;
+        font-size: 12px;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .contactMe {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectioncontentFooter{
+        padding: 0;
+        margin: 0 20px 0 20px;
     }
     .sectionTitle{
         display: flex;
@@ -336,10 +352,112 @@ p {
         margin: 20px 30px 0;
         border-bottom: rgb(68, 91, 134) solid 2px;
     }
-    .contactMe {
+    .smallImg{
+        padding: 0 42px 20px 32px;
+        height: 100px;
+    }
+    .smallProjects{
         display: block;
-        padding: 0px;
+        padding: 0;
+    }
+    .smallsubtitleCard {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        top: 38%;
+        left: 45px;
+    }
+    .subtitleImg{
+        width: 576px;
+        height: 288px;
+    }
+    .work{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    a{
+        font-size: 10px;
+    }
+    li{
+        margin: 0 2px 5px;
+        border-bottom: 1px turquoise solid;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0;
+    }
+    p{
+        padding: 20px 30px 0 30px;
+    }
+    .aboutMe{
+        display: block;
         margin: 0px;
+    }
+    .art1{
+        left: 30px;
+        bottom: 30px;
+    }
+    .art2{
+        left: 45px;
+        bottom: 40px;
+    }
+    .bigImg{
+        padding: 20px;
+        margin: 0 10px 0 8px;
+        width: 430px;
+        height: 100px;
+        
+    }
+    .bigsubtitleCard{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        bottom: 45px;
+        left: 30px;
+    }
+    .box1{
+        top: 0;
+        text-align: center;
+        width: 576px;
+        height: 50px;
+    }
+    .box2{
+        font-size: 18px;
+        top: 88%;
+        width: 100px;
+        height: 26px;
+        margin: 0 30px;
+    }
+    .box3{
+        top: 50%;
+        width: 12%;
+        height: 30%;
+    }
+    
+    .box4{
+        top: 35%;
+        width: 25%;
+        height: 35%;
+    }
+    .box5{
+        top: 35%;
+        width: 20%;
+        height: 35%;
+    }
+    .box6{
+        top: 35%;
+        width: 23%;
+        height: 35%;
+    }
+    .box7{
+        top: 35%;
+        width: 3%;
+        height: 35%;
     }
     .contactLink{
         margin: 0 0 0 15px;
@@ -347,21 +465,305 @@ p {
         font-size: 12px;
         border-bottom: rgb(68, 91, 134) solid 2px;
     }
-    .aboutMe{
+    .contactMe {
         display: block;
+        padding: 0px;
         margin: 0px;
+    }
+    .sectioncontentFooter{
+        padding: 0;
+        margin: 0 20px 0 20px;
+    }
+    .sectionTitle{
+        display: flex;
+        justify-content: start;
+        border-right: none;
+        padding: 0;
+        margin: 20px 30px 0;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .smallImg{
+        padding: 0 42px 20px 32px;
+        height: 100px;
+    }
+    .smallProjects{
+        display: block;
+        padding: 0;
+    }
+    .smallsubtitleCard {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        top: 38%;
+        left: 45px;
+    }
+    .subtitleImg{
+        width: 576px;
+        height: 288px;
     }
     .work{
         display: block;
         padding: 0;
         margin: 0;
     }
-    .smallProjects{
-        display: block;
+}
+
+/* larger smartphones */
+@media screen and (max-width: 650px){
+    a{
+        font-size: 10px;
+    }
+    li{
+        margin: 0 2px 5px;
+        border-bottom: 1px turquoise solid;
+    }
+    nav{
+        flex-direction: column;
         padding: 0;
+    }
+    p{
+        padding: 20px 30px 0 30px;
+    }
+    .aboutMe{
+        display: block;
+        margin: 0px;
+    }
+    .art1{
+        left: 30px;
+        bottom: 30px;
+    }
+    .art2{
+        left: 45px;
+        bottom: 40px;
+    }
+    .bigImg{
+        padding: 20px;
+        margin: 0 10px 0 8px;
+        width: 430px;
+        height: 100px;
+        
+    }
+    .bigsubtitleCard{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        bottom: 45px;
+        left: 30px;
+    }
+    .box1{
+        top: 0;
+        text-align: center;
+        width: 576px;
+        height: 50px;
+    }
+    .box2{
+        font-size: 18px;
+        top: 88%;
+        width: 100px;
+        height: 26px;
+        margin: 0 30px;
+    }
+    .box3{
+        top: 50%;
+        width: 12%;
+        height: 30%;
+    }
+    
+    .box4{
+        top: 35%;
+        width: 25%;
+        height: 35%;
+    }
+    .box5{
+        top: 35%;
+        width: 20%;
+        height: 35%;
+    }
+    .box6{
+        top: 35%;
+        width: 23%;
+        height: 35%;
+    }
+    .box7{
+        top: 35%;
+        width: 3%;
+        height: 35%;
+    }
+    .contactLink{
+        margin: 0 0 0 15px;
+        padding: 0;
+        font-size: 12px;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .contactMe {
+        display: block;
+        padding: 0px;
+        margin: 0px;
     }
     .sectioncontentFooter{
         padding: 0;
         margin: 0 20px 0 20px;
+    }
+    .sectionTitle{
+        display: flex;
+        justify-content: start;
+        border-right: none;
+        padding: 0;
+        margin: 20px 30px 0;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .smallImg{
+        padding: 0 42px 20px 32px;
+        height: 100px;
+    }
+    .smallProjects{
+        display: block;
+        padding: 0;
+    }
+    .smallsubtitleCard {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        top: 38%;
+        left: 45px;
+    }
+    .subtitleImg{
+        width: 576px;
+        height: 288px;
+    }
+    .work{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Smaller smartphones */
+@media screen and (max-width: 576px){
+    a{
+        font-size: 10px;
+    }
+    li{
+        margin: 0 2px 5px;
+        border-bottom: 1px turquoise solid;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0;
+    }
+    p{
+        padding: 20px 30px 0 30px;
+    }
+    .aboutMe{
+        display: block;
+        margin: 0px;
+    }
+    .art1{
+        left: 30px;
+        bottom: 30px;
+    }
+    .art2{
+        left: 45px;
+        bottom: 40px;
+    }
+    .bigImg{
+        padding: 20px;
+        margin: 0 10px 0 8px;
+        width: 430px;
+        height: 100px;
+        
+    }
+    .bigsubtitleCard{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        bottom: 45px;
+        left: 30px;
+    }
+    .box1{
+        top: 0;
+        text-align: center;
+        width: 576px;
+        height: 50px;
+    }
+    .box2{
+        font-size: 18px;
+        top: 88%;
+        width: 100px;
+        height: 26px;
+        margin: 0 30px;
+    }
+    .box3{
+        top: 50%;
+        width: 12%;
+        height: 30%;
+    }
+    
+    .box4{
+        top: 35%;
+        width: 25%;
+        height: 35%;
+    }
+    .box5{
+        top: 35%;
+        width: 20%;
+        height: 35%;
+    }
+    .box6{
+        top: 35%;
+        width: 23%;
+        height: 35%;
+    }
+    .box7{
+        top: 35%;
+        width: 3%;
+        height: 35%;
+    }
+    .contactLink{
+        margin: 0 0 0 15px;
+        padding: 0;
+        font-size: 12px;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .contactMe {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectioncontentFooter{
+        padding: 0;
+        margin: 0 20px 0 20px;
+    }
+    .sectionTitle{
+        display: flex;
+        justify-content: start;
+        border-right: none;
+        padding: 0;
+        margin: 20px 30px 0;
+        border-bottom: rgb(68, 91, 134) solid 2px;
+    }
+    .smallImg{
+        padding: 0 42px 20px 32px;
+        height: 100px;
+    }
+    .smallProjects{
+        display: block;
+        padding: 0;
+    }
+    .smallsubtitleCard {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(55, 69, 80);
+        top: 38%;
+        left: 45px;
+    }
+    .subtitleImg{
+        width: 576px;
+        height: 288px;
+    }
+    .work{
+        display: block;
+        padding: 0;
+        margin: 0;
     }
 }
